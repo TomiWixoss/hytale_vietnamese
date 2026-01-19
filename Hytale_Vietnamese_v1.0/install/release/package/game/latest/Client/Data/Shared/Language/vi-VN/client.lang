@@ -1,202 +1,202 @@
 # === assetEditor ===
-assetEditor.mainMenu.connection.connecting = Conectando con el servidor...
-assetEditor.mainMenu.connection.authenticating = Autentificando...
-assetEditor.mainMenu.title = Abrir editor
-assetEditor.mainMenu.cosmeticsEditor = Cosméticos
-assetEditor.mainMenu.servers = Servidores
-assetEditor.mainMenu.disconnectionContainer.title = ¡Desconectado del servidor!
-assetEditor.mainMenu.disconnectionContainer.reconnect = Reconectar
-assetEditor.mainMenu.connection.error.failedAuthentication = Error al autenticarse con el servidor
-assetEditor.mainMenu.connection.error.failedToEstablishConnection = No se ha podido establecer la conexión con el servidor.
-assetEditor.mainMenu.settingsButton = Configuración
+assetEditor.mainMenu.connection.connecting = Đang kết nối với máy chủ...
+assetEditor.mainMenu.connection.authenticating = Đang xác thực...
+assetEditor.mainMenu.title = Mở trình chỉnh sửa
+assetEditor.mainMenu.cosmeticsEditor = Trang phục
+assetEditor.mainMenu.servers = Máy chủ
+assetEditor.mainMenu.disconnectionContainer.title = Đã mất kết nối với máy chủ!
+assetEditor.mainMenu.disconnectionContainer.reconnect = Kết nối lại
+assetEditor.mainMenu.connection.error.failedAuthentication = Lỗi xác thực với máy chủ
+assetEditor.mainMenu.connection.error.failedToEstablishConnection = Không thể thiết lập kết nối với máy chủ.
+assetEditor.mainMenu.settingsButton = Cài đặt
 
-assetEditor.settings.title = Configuración
+assetEditor.settings.title = Cài đặt
 
-assetEditor.settings.setting.diagnosticMode = Modo de diagnóstico
-assetEditor.settings.setting.useSystemLanguage = Usar el idioma del sistema
-assetEditor.settings.setting.language = Idioma
-assetEditor.settings.setting.fullscreen = Pantalla completa
-assetEditor.settings.setting.exportPath = Carpeta de exportación
-assetEditor.settings.setting.exportPath.dialogTitle = Selecciona una carpeta de exportación
-assetEditor.settings.setting.exportPath.dialogConfirmationButton = Seleccionar como carpeta de exportación
+assetEditor.settings.setting.diagnosticMode = Chế độ chẩn đoán
+assetEditor.settings.setting.useSystemLanguage = Sử dụng ngôn ngữ hệ thống
+assetEditor.settings.setting.language = Ngôn ngữ
+assetEditor.settings.setting.fullscreen = Toàn màn hình
+assetEditor.settings.setting.exportPath = Thư mục xuất
+assetEditor.settings.setting.exportPath.dialogTitle = Chọn thư mục xuất
+assetEditor.settings.setting.exportPath.dialogConfirmationButton = Chọn làm thư mục xuất
 
-assetEditor.mainMenu.errors.failedToSaveServerList = No se ha podido guardar la lista de servidores.
+assetEditor.mainMenu.errors.failedToSaveServerList = Không thể lưu danh sách máy chủ.
 
-assetEditor.mainMenu.serverModal.titleAdd = Añadir servidor
-assetEditor.mainMenu.serverModal.titleEdit = Editar servidor
-assetEditor.mainMenu.serverModal.errors.enterName = Por favor, introduzca un nombre.
-assetEditor.mainMenu.serverModal.errors.enterHostname = Introduzca un nombre de host.
-assetEditor.mainMenu.serverModal.errors.nameAlreadyInUse = Este nombre ya está en uso.
+assetEditor.mainMenu.serverModal.titleAdd = Thêm máy chủ
+assetEditor.mainMenu.serverModal.titleEdit = Chỉnh sửa máy chủ
+assetEditor.mainMenu.serverModal.errors.enterName = Vui lòng nhập tên.
+assetEditor.mainMenu.serverModal.errors.enterHostname = Vui lòng nhập tên máy chủ (hostname).
+assetEditor.mainMenu.serverModal.errors.nameAlreadyInUse = Tên này đã được sử dụng.
 
-assetEditor.mainMenu.removeServerModal.title = ¿Eliminar el servidor «{serverName}» de la lista?
+assetEditor.mainMenu.removeServerModal.title = Xóa máy chủ "{serverName}" khỏi danh sách?
 
-assetEditor.ipcServerConfirmation.title = ¿Conectarse al servidor?
-assetEditor.ipcServerConfirmation.description = ¿Desea desconectarse de este servidor y conectarse a «{serverName}»?
+assetEditor.ipcServerConfirmation.title = Kết kết nối với máy chủ?
+assetEditor.ipcServerConfirmation.description = Bạn có muốn ngắt kết nối khỏi máy chủ này và kết nối với "{serverName}" không?
 
-assetEditor.assetBrowser.searchAssetsPlaceholder = Buscar activos
-assetEditor.assetBrowser.findAsset = Buscar activo
-assetEditor.assetBrowser.delete = Eliminar
-assetEditor.assetBrowser.rename = Cambiar nombre
-assetEditor.assetBrowser.duplicate = Duplicado
-assetEditor.assetBrowser.findInFolder = Buscar en carpeta
-assetEditor.assetBrowser.copyPath = Copiar ruta
-assetEditor.assetBrowser.showInFinder = Mostrar en Finder
-assetEditor.assetBrowser.showInExplorer = Mostrar en el Explorador
-assetEditor.assetBrowser.createInFolder = Crear {assetType} en la carpeta
-assetEditor.assetBrowser.createAssetInFolder = Crear activo en carpeta
-assetEditor.assetBrowser.createFolder = Crear carpeta
-assetEditor.assetBrowser.create = Crear {assetType}
-assetEditor.assetBrowser.tabs.cosmetics = Cosméticos
-assetEditor.assetBrowser.tabs.server = Servidor
-assetEditor.assetBrowser.tabs.common = Común
-assetEditor.assetBrowser.tooltips.collapseAll = Contraer todos los directorios
-assetEditor.assetBrowser.tooltips.createNewAsset = Crear un nuevo activo
-assetEditor.assetBrowser.tooltips.filter = Filtro
-assetEditor.assetBrowser.export = Exportar activo
-assetEditor.assetBrowser.exportAndDiscard = Exportar activo y descartar
-assetEditor.assetBrowser.discard = Descartar cambios
+assetEditor.assetBrowser.searchAssetsPlaceholder = Tìm kiếm tài nguyên
+assetEditor.assetBrowser.findAsset = Tìm tài nguyên
+assetEditor.assetBrowser.delete = Xóa
+assetEditor.assetBrowser.rename = Đổi tên
+assetEditor.assetBrowser.duplicate = Sao chép
+assetEditor.assetBrowser.findInFolder = Tìm trong thư mục
+assetEditor.assetBrowser.copyPath = Sao chép đường dẫn
+assetEditor.assetBrowser.showInFinder = Hiển thị trong Finder
+assetEditor.assetBrowser.showInExplorer = Hiển thị trong Explorer
+assetEditor.assetBrowser.createInFolder = Tạo {assetType} trong thư mục
+assetEditor.assetBrowser.createAssetInFolder = Tạo tài nguyên trong thư mục
+assetEditor.assetBrowser.createFolder = Tạo thư mục
+assetEditor.assetBrowser.create = Tạo {assetType}
+assetEditor.assetBrowser.tabs.cosmetics = Trang phục
+assetEditor.assetBrowser.tabs.server = Máy chủ
+assetEditor.assetBrowser.tabs.common = Chung
+assetEditor.assetBrowser.tooltips.collapseAll = Thu gọn tất cả các thư mục
+assetEditor.assetBrowser.tooltips.createNewAsset = Tạo tài nguyên mới
+assetEditor.assetBrowser.tooltips.filter = Bộ lọc
+assetEditor.assetBrowser.export = Xuất tài nguyên
+assetEditor.assetBrowser.exportAndDiscard = Xuất tài nguyên và hủy bỏ
+assetEditor.assetBrowser.discard = Hủy bỏ thay đổi
 
-assetEditor.changeConfirmationModal.title = Se requiere confirmación
-assetEditor.changeConfirmationModal.text = Al cambiar este valor se eliminarán algunas propiedades existentes.
+assetEditor.changeConfirmationModal.title = Yêu cầu xác nhận
+assetEditor.changeConfirmationModal.text = Thay đổi giá trị này sẽ xóa một số thuộc tính hiện có.
 
-assetEditor.assetReferenceOrInlineEditor.useExisting = Referencia existente
-assetEditor.assetReferenceOrInlineEditor.createEmbedded = Crear incrustado
-assetEditor.assetReferenceOrInlineEditor.reference = Referencia a {assetType}
+assetEditor.assetReferenceOrInlineEditor.useExisting = Tham chiếu hiện có
+assetEditor.assetReferenceOrInlineEditor.createEmbedded = Tạo nhúng
+assetEditor.assetReferenceOrInlineEditor.reference = Tham chiếu đến {assetType}
 
-assetEditor.assetDropdownEditor.openAssetTooltip = Abrir activo en una nueva pestaña
-assetEditor.assetDropdownEditor.createAssetTooltip = Crear y asignar nuevo {assetType}
+assetEditor.assetDropdownEditor.openAssetTooltip = Mở tài nguyên trong tab mới
+assetEditor.assetDropdownEditor.createAssetTooltip = Tạo và gán {assetType} mới
 
-assetEditor.listEditor.empty = Esta lista está vacía.
-assetEditor.listEditor.header = {count} Entradas de la lista
-assetEditor.mapEditor.empty = Este mapa está vacío.
-assetEditor.mapEditor.header = {count} Entradas del mapa
+assetEditor.listEditor.empty = Danh sách này hiện đang trống.
+assetEditor.listEditor.header = {count} mục trong danh sách
+assetEditor.mapEditor.empty = Bản đồ này hiện đang trống.
+assetEditor.mapEditor.header = {count} mục trong bản đồ
 
 assetEditor.jsonObjectEditor.json = JSON
-assetEditor.jsonObjectEditor.jsonParseError = JSON: Error al analizar
+assetEditor.jsonObjectEditor.jsonParseError = JSON: Lỗi phân tích cú pháp
 
-assetEditor.changelogModal.newVersion = Nuevo
-assetEditor.changelogModal.title = ¿Qué hay de nuevo?
+assetEditor.changelogModal.newVersion = Mới
+assetEditor.changelogModal.title = Có gì mới?
 
-assetEditor.backends.local = Edición: Activos locales
-assetEditor.backends.server = Edición: Recursos del servidor
-assetEditor.backends.tooltip = Haga clic para abrir el directorio de exportación.
+assetEditor.backends.local = Chỉnh sửa: Tài nguyên cục bộ
+assetEditor.backends.server = Chỉnh sửa: Tài nguyên máy chủ
+assetEditor.backends.tooltip = Nhấp để mở thư mục xuất.
 
-assetEditor.mode.editor = Editor
-assetEditor.mode.source = Fuente
+assetEditor.mode.editor = Trình chỉnh sửa
+assetEditor.mode.source = Mã nguồn
 
-assetEditor.editor.searchProperties = Buscar propiedades
+assetEditor.editor.searchProperties = Tìm kiếm thuộc tính
 
-assetEditor.property.title = Propiedad «{name}»
-assetEditor.property.remove = Eliminar
-assetEditor.property.renameKey = Renombrar clave
-assetEditor.property.moveDown = Bajar
-assetEditor.property.moveUp = Subir
-assetEditor.property.createEmbeddedAsset = Convertir a activo integrado
-assetEditor.property.createDedicatedAsset = Convertir a activo dedicado
-assetEditor.property.collapseAllEntries = Contraer todas las entradas
-assetEditor.property.uncollapseAllEntries = Desplegar todas las entradas
-assetEditor.property.openAssetInNewTab = Abrir activo en una nueva pestaña
-assetEditor.property.copyAndReferenceAsset = Copiar y referenciar activo
-assetEditor.property.createAndReferenceAsset = Crear y hacer referencia a un activo
-assetEditor.property.insertSiblingBefore = Insertar hermano antes
-assetEditor.property.insertSiblingAfter = Insertar hermano después
-assetEditor.property.list = Lista
-assetEditor.property.map = Mapa
-assetEditor.property.copyValue = Copiar valor
-assetEditor.property.pasteValue = Valor de pegado
-assetEditor.property.map.insertLabel = Insertar
-assetEditor.property.errors.keyAlreadyExists = Esta clave ya está en uso.
+assetEditor.property.title = Thuộc tính "{name}"
+assetEditor.property.remove = Xóa
+assetEditor.property.renameKey = Đổi tên khóa
+assetEditor.property.moveDown = Di chuyển xuống
+assetEditor.property.moveUp = Di chuyển lên
+assetEditor.property.createEmbeddedAsset = Chuyển thành tài nguyên tích hợp
+assetEditor.property.createDedicatedAsset = Chuyển thành tài nguyên chuyên dụng
+assetEditor.property.collapseAllEntries = Thu gọn tất cả các mục
+assetEditor.property.uncollapseAllEntries = Mở rộng tất cả các mục
+assetEditor.property.openAssetInNewTab = Mở tài nguyên trong tab mới
+assetEditor.property.copyAndReferenceAsset = Sao chép và tham chiếu tài nguyên
+assetEditor.property.createAndReferenceAsset = Tạo và tham chiếu tài nguyên
+assetEditor.property.insertSiblingBefore = Chèn hàng đằng trước
+assetEditor.property.insertSiblingAfter = Chèn hàng đằng sau
+assetEditor.property.list = Danh sách
+assetEditor.property.map = Bản đồ
+assetEditor.property.copyValue = Sao chép giá trị
+assetEditor.property.pasteValue = Dán giá trị
+assetEditor.property.map.insertLabel = Chèn
+assetEditor.property.errors.keyAlreadyExists = Khóa này đã được sử dụng.
 
-assetEditor.property.tooltip.arrayItem = Índice: {index}
-assetEditor.property.tooltip.mapItem = Clave: {key}
-assetEditor.property.tooltip.inheritedProperty = Heredado de {asset} => {value}
-assetEditor.property.tooltip.listEntries = {count} Entradas de la lista
-assetEditor.property.tooltip.objectEntries = {count} Entradas de objetos
+assetEditor.property.tooltip.arrayItem = Chỉ mục: {index}
+assetEditor.property.tooltip.mapItem = Khóa: {key}
+assetEditor.property.tooltip.inheritedProperty = Được kế thừa từ {asset} => {value}
+assetEditor.property.tooltip.listEntries = {count} mục trong danh sách
+assetEditor.property.tooltip.objectEntries = {count} mục trong đối tượng
 
-assetEditor.configEditor.button.collapseAll = Contraer todo
-assetEditor.configEditor.button.expandAll = Expandir todo
-assetEditor.configEditor.button.showDefinedProperties = Alternar: Mostrar solo las propiedades definidas
-assetEditor.configEditor.button.quickInspect = Inspección rápida
+assetEditor.configEditor.button.collapseAll = Thu gọn tất cả
+assetEditor.configEditor.button.expandAll = Mở rộng tất cả
+assetEditor.configEditor.button.showDefinedProperties = Chế độ: Chỉ hiển thị các thuộc tính đã xác định
+assetEditor.configEditor.button.quickInspect = Kiểm tra nhanh
 
-assetEditor.sourceEditor.apply = Aplicar cambios
-assetEditor.sourceEditor.discard = Descartar cambios
-assetEditor.sourceEditor.unsavedChangesModal.title = Cambios no guardados
-assetEditor.sourceEditor.unsavedChangesModal.text = Hay cambios sin guardar en el editor de código. ¿Estás seguro de que deseas continuar?
-assetEditor.sourceEditor.unsavedChangesModal.discardChanges = Descartar cambios
+assetEditor.sourceEditor.apply = Áp dụng thay đổi
+assetEditor.sourceEditor.discard = Hủy bỏ thay đổi
+assetEditor.sourceEditor.unsavedChangesModal.title = Thay đổi chưa được lưu
+assetEditor.sourceEditor.unsavedChangesModal.text = Có những thay đổi chưa được lưu trong trình chỉnh sửa mã. Bạn có chắc chắn muốn tiếp tục không?
+assetEditor.sourceEditor.unsavedChangesModal.discardChanges = Hủy bỏ thay đổi
 
-assetEditor.assetSelector.findAsset = Buscar activo...
+assetEditor.assetSelector.findAsset = Tìm tài nguyên...
 
-assetEditor.fileSelector.placeholder = Seleccionar un archivo
-assetEditor.fileSelector.filesSelected = {count} Archivos seleccionados
-assetEditor.fileSelector.findFile = Buscar archivo...
-assetEditor.fileSelector.createDirectory = Crear carpeta
-assetEditor.fileSelector.newDirectoryNamePlaceholder = Nombre de la nueva carpeta...
+assetEditor.fileSelector.placeholder = Chọn một tệp
+assetEditor.fileSelector.filesSelected = {count} tệp được chọn
+assetEditor.fileSelector.findFile = Tìm tệp...
+assetEditor.fileSelector.createDirectory = Tạo thư mục
+assetEditor.fileSelector.newDirectoryNamePlaceholder = Tên thư mục mới...
 
-assetEditor.timelineEditor.insertAt = Insertar valor en {hour}
-assetEditor.timelineEditor.updateAt = Hora: {hour}\n\
+assetEditor.timelineEditor.insertAt = Chèn giá trị tại {hour}
+assetEditor.timelineEditor.updateAt = Thời gian: {hour}\n\
 \n\
-Haz clic con el botón derecho para eliminar
+Nhấp chuột phải để xóa
 
-assetEditor.modal.applyChangesLocally = Aplicar también el cambio localmente
+assetEditor.modal.applyChangesLocally = Đồng thời áp dụng thay đổi cục bộ
 
-assetEditor.deleteAssetModal.title = ¿Eliminar activo?
-assetEditor.deleteAssetModal.text = ¿Estás seguro de que deseas eliminar «{assetId}»?
-assetEditor.deleteAssetModal.confirmButton = Eliminar
+assetEditor.deleteAssetModal.title = Xóa tài nguyên?
+assetEditor.deleteAssetModal.text = Bạn có chắc chắn muốn xóa "{assetId}" không?
+assetEditor.deleteAssetModal.confirmButton = Xóa
 
-assetEditor.deleteDirectoryModal.title = ¿Eliminar carpeta?
-assetEditor.deleteDirectoryModal.text = ¿Estás seguro de que deseas eliminar «{path}»?
-assetEditor.deleteDirectoryModal.confirmButton = Eliminar
+assetEditor.deleteDirectoryModal.title = Xóa thư mục?
+assetEditor.deleteDirectoryModal.text = Bạn có chắc chắn muốn xóa "{path}" không?
+assetEditor.deleteDirectoryModal.confirmButton = Xóa
 
-assetEditor.keyModal.renameTitle = Renombrar clave
-assetEditor.keyModal.insertTitle = Tecla Insertar
-assetEditor.keyModal.renameButton = Cambiar nombre
-assetEditor.keyModal.insertButton = Insertar
-assetEditor.keyModal.errors.existingKey = ¡Ya existe una entrada con esta clave!
-assetEditor.keyModal.errors.invalidProperty = Propiedad no válida
-assetEditor.keyModal.errors.fieldEmpty = ¡Introduzca una nueva clave!
+assetEditor.keyModal.renameTitle = Đổi tên khóa
+assetEditor.keyModal.insertTitle = Chèn khóa
+assetEditor.keyModal.renameButton = Đổi tên
+assetEditor.keyModal.insertButton = Chèn
+assetEditor.keyModal.errors.existingKey = Đã tồn tại một mục có khóa này!
+assetEditor.keyModal.errors.invalidProperty = Thuộc tính không hợp lệ
+assetEditor.keyModal.errors.fieldEmpty = Vui lòng nhập khóa mới!
 
-assetEditor.iconExporterModal.export = Guardar icono
-assetEditor.iconExporterModal.reset = Restablecer valores predeterminados
-assetEditor.iconExporterModal.previewZoom = Vista previa Zoom
-assetEditor.iconExporterModal.rotationX = Rotación X
-assetEditor.iconExporterModal.rotationY = Rotación Y
-assetEditor.iconExporterModal.rotationZ = Rotación Z
-assetEditor.iconExporterModal.translationX = Posición X
-assetEditor.iconExporterModal.translationY = Posición Y
-assetEditor.iconExporterModal.scale = Escala
-assetEditor.iconExporterModal.errors.invalidConfig = Este elemento no está configurado correctamente para mostrar una vista previa.
+assetEditor.iconExporterModal.export = Lưu biểu tượng
+assetEditor.iconExporterModal.reset = Đặt lại giá trị mặc định
+assetEditor.iconExporterModal.previewZoom = Thu phóng xem trước
+assetEditor.iconExporterModal.rotationX = Xoay X
+assetEditor.iconExporterModal.rotationY = Xoay Y
+assetEditor.iconExporterModal.rotationZ = Xoay Z
+assetEditor.iconExporterModal.translationX = Vị trí X
+assetEditor.iconExporterModal.translationY = Vị trí Y
+assetEditor.iconExporterModal.scale = Tỷ lệ
+assetEditor.iconExporterModal.errors.invalidConfig = Mục này chưa được cấu hình đúng để hiển thị bản xem trước.
 
-assetEditor.renameModal.titleAsset = Renombrar activo
-assetEditor.renameModal.titleFolder = Cambiar nombre de carpeta
-assetEditor.renameModal.renameButton = Cambiar nombre
-assetEditor.renameModal.newId = Nuevo ID
-assetEditor.renameModal.newName = Nuevo nombre
-assetEditor.renameModal.errors.invalidId = Introduzca un identificador válido. Un identificador solo puede contener letras y números, así como el símbolo _ para marcar determinadas categorías de identificadores.
-assetEditor.renameModal.warning = Advertencia: Cambiar el nombre de un activo no modificará las referencias al mismo en otros archivos JSON. Esta acción podría dañar otros activos.
+assetEditor.renameModal.titleAsset = Đổi tên tài nguyên
+assetEditor.renameModal.titleFolder = Đổi tên thư mục
+assetEditor.renameModal.renameButton = Đổi tên
+assetEditor.renameModal.newId = ID mới
+assetEditor.renameModal.newName = Tên mới
+assetEditor.renameModal.errors.invalidId = Vui lòng nhập một mã định danh hợp lệ. Mã định danh chỉ có thể chứa chữ cái, chữ số, và ký hiệu _ để phân loại.
+assetEditor.renameModal.warning = Cảnh báo: Việc đổi tên tài nguyên sẽ không tự động cập nhật các tham chiếu trong các tệp JSON khác. Hành động này có thể làm hỏng các tài nguyên khác.
 
-assetEditor.idValidation.empty = El campo id no puede estar vacío.
-assetEditor.idValidation.minLength = Un identificador debe constar de al menos {count} caracteres.
-assetEditor.idValidation.maxLength = Un identificador no puede contener más de {count} caracteres.
-assetEditor.idValidation.onlyLettersAndDigits = Un identificador solo puede contener letras y dígitos.
-assetEditor.idValidation.firstUppercase = La primera letra de un identificador o después de un guión bajo debe estar en mayúscula.
-assetEditor.idValidation.firstLetter = El primer carácter de un identificador o después de un guión bajo debe ser una letra.
-assetEditor.idValidation.underscoreEmpty = Un identificador no puede comenzar ni terminar con un guión bajo, y un guión bajo no puede ir seguido de otro guión bajo.
+assetEditor.idValidation.empty = Trường ID không được để trống.
+assetEditor.idValidation.minLength = Mã định danh phải chứa ít nhất {count} ký tự.
+assetEditor.idValidation.maxLength = Mã định danh không được vượt quá {count} ký tự.
+assetEditor.idValidation.onlyLettersAndDigits = Mã định danh chỉ có thể chứa chữ cái và chữ số.
+assetEditor.idValidation.firstUppercase = Chữ cái đầu tiên sau mỗi dấu gạch dưới phải được viết hoa.
+assetEditor.idValidation.firstLetter = Ký tự đầu tiên sau mỗi dấu gạch dưới phải là một chữ cái.
+assetEditor.idValidation.underscoreEmpty = Mã định danh không được bắt đầu hoặc kết thúc bằng dấu gạch dưới, và không được dùng hai dấu gạch dưới liên tiếp.
 
-assetEditor.createAssetModal.title = Crear nuevo activo {assetType}
-assetEditor.createAssetModal.assetPack = Paquete de activos
-assetEditor.createAssetModal.assetType = Tipo de activo
-assetEditor.createAssetModal.folder = Folleto
-assetEditor.createAssetModal.assetId = Identificador único de activo
-assetEditor.createAssetModal.assetIdHelp = Caracteres permitidos: A-Z 0-9 _\\
-Examples: Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
-assetEditor.createAssetModal.copyAsset = Copiar activo
-assetEditor.createAssetModal.tab.properties = Propiedades
-assetEditor.createAssetModal.tab.source = Fuente
-assetEditor.createAssetModal.createButton = Crear
-assetEditor.createAssetModal.assetPackDropdown.noEntries = Crea primero un nuevo paquete de recursos.
-assetEditor.createAssetModal.errors.existingId = ¡Ya existe un activo con este identificador!
-assetEditor.createAssetModal.errors.invalidAssetType = Tipo de activo no válido
-assetEditor.createAssetModal.errors.noAssetPackSelected = Se debe seleccionar un paquete de recursos para crear el recurso.
+assetEditor.createAssetModal.title = Tạo tài nguyên {assetType} mới
+assetEditor.createAssetModal.assetPack = Gói tài nguyên
+assetEditor.createAssetModal.assetType = Loại tài nguyên
+assetEditor.createAssetModal.folder = Thư mục
+assetEditor.createAssetModal.assetId = Mã định danh duy nhất của tài nguyên
+assetEditor.createAssetModal.assetIdHelp = Các ký tự được phép: A-Z 0-9 _\\
+Ví dụ: Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
+assetEditor.createAssetModal.copyAsset = Sao chép tài nguyên
+assetEditor.createAssetModal.tab.properties = Thuộc tính
+assetEditor.createAssetModal.tab.source = Mã nguồn
+assetEditor.createAssetModal.createButton = Tạo
+assetEditor.createAssetModal.assetPackDropdown.noEntries = Hãy tạo một gói tài nguyên mới trước.
+assetEditor.createAssetModal.errors.existingId = Đã tồn tại một tài nguyên với mã định danh này!
+assetEditor.createAssetModal.errors.invalidAssetType = Loại tài nguyên không hợp lệ
+assetEditor.createAssetModal.errors.noAssetPackSelected = Bạn phải chọn một gói tài nguyên để tạo tài nguyên.
 
 assetEditor.exportModal.title = Activos editados recientemente
 assetEditor.exportModal.deselectAllButton = Deseleccionar todo
