@@ -1,4 +1,4 @@
-﻿# === world ===
+﻿# === assetEditor ===
 
 assetEditor.messages.unknownItem = Vật phẩm không xác định "{id}"
 assetEditor.messages.unknownModel = Mô hình không xác định "{id}"
@@ -65,7 +65,7 @@ assetEditor.buttons.resetModel = Đặt lại mô hình
 assetEditor.buttons.createAndEquipItem = Tạo và trang bị vật phẩm
 assetEditor.buttons.createAndUseModel = Tạo và sử dụng mô hình
 
-# === world ===
+# === assetTypes ===
 
 assetTypes.AmbienceFX.title = Hiệu ứng môi trường
 assetTypes.ItemDropList.title = Danh sách vật phẩm rơi ra
@@ -116,7 +116,7 @@ assetTypes.GrowthModifierAsset.title = Bộ điều chỉnh tăng trưởng
 assetTypes.TagPattern.title = Mẫu nhãn (Tag Pattern)
 assetTypes.ReachLocationMarkerAsset = Điểm đánh dấu vươn tới vị trí
 
-# === world ===
+# === barter ===
 
 # Shops
 barter.klops_merchant.title = Thương nhân Klops
@@ -128,7 +128,7 @@ barter.customUI.barterPage.restocksInDays = Bổ sung hàng trong {days, plural,
 barter.customUI.barterPage.noStock = <b>HẾT HÀNG</b>
 barter.customUI.barterPage.inStock = Kho: {count}
 
-# === world ===
+# === benchCategories ===
 
 benchCategories.workbench.crafting = Chế tạo
 benchCategories.workbench.survival = Sinh tồn
@@ -175,7 +175,7 @@ benchCategories.bow = Cung
 
 benchCategories.all = Tất cả
 
-# === world ===
+# === builderTools ===
 
 builderTools.blocksEdited = [{key}] Các khối đã chỉnh sửa
 builderTools.doneEditing = [{key}] Đã hoàn tất chỉnh sửa
@@ -195,8 +195,8 @@ builderTools.cut = Đã cắt {blockCount, plural, one {1 khối} other {{blockC
 builderTools.cutWithEntities = Đã cắt {blockCount, plural, one {1 khối} other {{blockCount, number} khối}} và {entityCount, plural, one {1 thực thể} other {{entityCount, number} thực thể}}
 
 builderTools.pastedBlocks = Đã dán {count, plural,\
-    one {1 block}\
-    other {{count, number} blocks}}
+    one {1 khối}\
+    other {{count, number} khối}}
 builderTools.clipboardRotatedBy = Khay nhớ tạm đã được xoay {angle} quanh trục {axis}
 builderTools.clipboardRotatedArbitrary = Khay nhớ tạm được xoay theo (yaw: {yaw}, pitch: {pitch}, roll: {roll})
 builderTools.clipboardFlipped = Khay nhớ tạm đã lật trên trục {axis}
@@ -687,7 +687,7 @@ builderTools.toolArgMissing = Thiếu giá trị cho đối số bắt buộc {a
 builderTools.repairFillers = Các khối trong vùng chọn đã được sửa chữa
 builderTools.tintOperation.colorParseError = Không thể phân tích màu sắc từ '{value}'.
 builderTools.laserPointer.colorParseError = Định dạng màu laser không hợp lệ: {value}. Vui lòng sử dụng định dạng thập lục phân (hex), ví dụ: #ff0000.
-builderTools.laserPointer.durationParseError = Invalid duration value: {value}. Must be a number between 500 and 10000
+builderTools.laserPointer.durationParseError = Giá trị thời gian không hợp lệ: {value}. Phải là một số từ 500 đến 10000.
 builderTools.layerOperation.layerTwoRequired = Để bật lớp ba, bạn cần phải bật lớp hai trước.
 builderTools.rotate.invalidBlockType = Xoay không hợp lệ, không có Loại Khối (BlockType): {blockType}
 builderTools.brushConfig.executionError = Lỗi khi thực thi thao tác cọ vẽ #{index, number}: {type}\
@@ -712,19 +712,19 @@ builderTools.imageImport.success = Đã nhập {count, number} khối vào khay 
 builderTools.imageImport.error = Không thể nhập hình ảnh: {message}
 builderTools.commands.importimage.desc = Nhập một tệp hình ảnh dưới dạng nghệ thuật khối (block art)
 
-# === world ===
+# === chat ===
 
 chat.playerMessage = {username}: {message}
 chat.broadcastMessage = {username}: {message}
 
-# === world ===
+# === commands ===
 
 commands.trigger.failedToSet = Không thể thiết lập kịch bản: {message}
 commands.trigger.failedToLoad = Không thể tải kịch bản: {message}
 commands.trigger.invalidPath = "{path}" không phải là một đường dẫn kịch bản hợp lệ.
 commands.trigger.enabled = Các bộ kích hoạt (Triggers) hiện đã được bật toàn cục!
 commands.trigger.disabled = Các bộ kích hoạt (Triggers) hiện đã bị tắt toàn cục!\n\
-    They will be re-enabled after a reboot or running the command /trigger enable.
+    Chúng sẽ được bật lại sau khi khởi động lại hoặc chạy lệnh /trigger enable.
 commands.teleport.notFurther = Không thể dịch chuyển xa hơn theo hướng này!
 commands.teleport.setHome = Nhà đã được thiết lập tại vị trí hiện tại của bạn.
 commands.teleport.worldNotLoaded = Thế giới này không còn được tải nữa!
@@ -1148,7 +1148,7 @@ commands.editprefab.kill.done = Đã xóa {amount} thực thể trong vùng ch�
 commands.editprefab.saveAs.desc = Lưu một mẫu dựng sẵn đã chọn vào một tệp khác.
 commands.editprefab.saveAs.noUpdate.desc = Nếu được chỉ định, sẽ không cập nhật mẫu dựng sẵn đã tải để có đường dẫn và tên mới.
 commands.editprefab.saveAs.errors.notAFile = Phải chỉ định một tên tệp không phải là một thư mục.
-commands.prefabeditsessionmanager.success.new = Successfully created world where you can create a new prefab
+commands.prefabeditsessionmanager.success.new = Đã tạo thành công thế giới nơi bạn có thể tạo một mẫu dựng sẵn mới.
 commands.prefabeditsessionmanager.success.load = Các mẫu dựng sẵn đã được tải thành công vào thế giới mới.
 commands.prefabeditsessionmanager.existingEditSession = Bạn đã ở trong một phiên chỉnh sửa, vui lòng thoát khỏi phiên hiện tại nếu bạn muốn bắt đầu một phiên mới.
 commands.prefabeditsessionmanager.alreadyBeingEdited = Mẫu dựng sẵn mà bạn đang cố gắng chỉnh sửa đã được người khác chỉnh sửa: {path}
@@ -1320,7 +1320,7 @@ commands.parsing.usage.optionalArgs = Các đối số tùy chọn: {args}
 commands.parsing.usage.requiredArgs = Các đối số bắt buộc: {args}
 commands.parsing.usage.args = \n {usage}
 commands.parsing.usage.subcommands = {separator}{usage}
-commands.parsing.usage.subcommandSeparator = ---------------------------------
+commands.parsing.usage.subcommandSeparator = \n---------------------------------\n
 commands.parsing.error.commandCollectionSubcommandNotFound = Không tìm thấy lệnh con '{subcommand}'. Có phải bạn muốn nói đến một trong những lệnh này không?: {suggestions}
 commands.parsing.error.wrongNumberOfParametersForArgument = Số lượng tham số cho đối số '{argument}' không chính xác. Mong đợi: {expected}, thực tế: {actual}, đầu vào nhận được: '{input}'.
 commands.parsing.error.noPermissionForCommand = Bạn không có quyền sử dụng lệnh này.
@@ -1561,7 +1561,7 @@ commands.player.viewradius.set.desc = Thiết lập bán kính tầm nhìn của
 commands.player.viewradius.set.radius.desc = Giá trị bán kính tầm nhìn (số hoặc "default").
 commands.player.viewradius.set.blocks.desc = Chỉ định bán kính theo khối (blocks) thay vì phân đoạn (chunks).
 commands.player.viewradius.set.bypass.desc = Bỏ qua giới hạn bán kính tầm nhìn tối đa.
-commands.player.viewradius.info = Bán kính hiển thị: {radio, plural,\
+commands.player.viewradius.info = Bán kính hiển thị: {radius, plural,\
     one {1 chunk}\
     other {{radius, number} chunks}} (Client: {clientRadius, plural,\
     one {1 chunk}\
@@ -1569,8 +1569,8 @@ commands.player.viewradius.info = Bán kính hiển thị: {radio, plural,\
 commands.player.viewradius.set.invalidNumber = Số lượng không hợp lệ: {value}.
 commands.player.viewradius.set.noHigherThan = Không thể thiết lập bán kính tầm nhìn cao hơn {radius, plural,\
     one {1 chunk}\
-    other {{radius, number} chunks}} without --bypass flag
-commands.player.viewradius.set.success = Bán kính hiển thị đã được đặt thành {radio, plural,\
+    other {{radius, number} chunks}} nếu không có cờ --bypass
+commands.player.viewradius.set.success = Bán kính hiển thị đã được đặt thành {radius, plural,\
     one {1 chunk}\
     other {{radius, number} chunks}} ({radiusBlocks, number} blocks)
 commands.stat.success = Đã đặt {name} thành {value}.
@@ -1611,11 +1611,7 @@ commands.kick.success = Đã trục xuất (kick) {username}!
 commands.version.response = HytaleServer v{version} ({patchline})
 commands.version.response.withEnvironment = HytaleServer v{version} ({patchline}, {environment})
 commands.maxplayers.get = Số lượng người chơi tối đa được đặt là: {maxPlayers, plural, one {vô hạn} other {{maxPlayers, number}}}.
-    one {infinite}\
-    other {maxPlayers, number}}
 commands.maxplayers.set = Số lượng người chơi tối đa đã được đặt thành {maxPlayers, plural, one {vô hạn} other {{maxPlayers, number}}}.
-    one {infinite}\
-    other {maxPlayers, number}}
 commands.maxplayers.amount.desc = Số lượng người chơi tối đa được phép vào máy chủ.
 commands.stop.success = Đang tắt máy chủ!
 commands.stop.crash.desc = Làm sập máy chủ thay vì tắt bình thường.
@@ -1627,9 +1623,7 @@ commands.help.failedToFindCommand = Không tìm thấy lệnh: {command}.
 commands.help.exact = Trợ giúp cho {command}:\n\
     Description: {description}\n
 commands.help.fileGenerated = Đã tạo tệp {file}!
-commands.toggleexplosives.success = Thuốc nổ hiện đã được đặt thành {status, select, true {bật} false {tắt}}.
-    true {on}\
-    false {off}}.
+commands.toggleexplosives.success = Thuốc nổ hiện đã được đặt thành {state, select, true {bật} false {tắt}}.
 commands.auth.dump.failed = Không thể xuất chứng chỉ: {message}
 commands.auth.refresh = Đã làm mới: {success}
 commands.auth.reload = Đã nạp lại
@@ -1657,7 +1651,7 @@ commands.world.perf.tickLimit = (Giới hạn tick: {tickLimit})
 commands.world.perf.period = ({length}): {padding}{value}
 commands.world.perf.tpsTime = \tTPS ({time}): {tps}
 commands.world.perf.tpsMinMaxMetric = \tTPS ({time}): Thấp nhất: {min}, TB: {avg}, Cao nhất: {max}
-commands.world.perf.deltaMinMaxMetric = Delta ({time}): Thấp nhất: {min}, TB: {avg}, Cao nhất: {max}
+commands.world.perf.deltaMinMaxMetric = \tDelta ({time}): Thấp nhất: {min}, TB: {avg}, Cao nhất: {max}
 commands.world.perf.all.desc = Hiển thị các giá trị delta cùng với TPS.
 commands.world.perf.delta.desc = Hiển thị các giá trị delta thay vì TPS.
 commands.world.perf.graph.desc = Hiển thị biểu đồ TPS theo thời gian.
@@ -1831,10 +1825,10 @@ commands.lightcalculation.setCalculationWithDelegate = Đã đặt kiểu tính 
 commands.lighting.info.desc = Hiển thị thông tin về ánh sáng.
 commands.lighting.info.detail.desc = Hiển thị thông tin chi tiết về phân đoạn.
 commands.lighting.info.summary = Kích thước hàng đợi: {queueSize, number}\n\
-    Light Calculation: {lightCalculation}
+    Cách tính ánh sáng: {lightCalculation}
 commands.lighting.info.chunkDetails = Tổng số phần của phân đoạn: {totalChunkSections, number}\n\
-    Chunks With Local Light: {chunksWithLocalLight, number}\n\
-    Chunks With Global Light: {chunksWithGlobalLight, number}
+    Phân đoạn có ánh sáng cục bộ: {chunksWithLocalLight, number}\n\
+    Phân đoạn có ánh sáng toàn cầu: {chunksWithGlobalLight, number}
 commands.reset.playerReset = Đặt lại người chơi: {uuid}
 commands.sendlighting.desc = Các lệnh để chuyển đổi việc gửi dữ liệu ánh sáng.
 commands.sendlighting.local.desc = Chuyển đổi việc gửi dữ liệu ánh sáng cục bộ.
@@ -1856,7 +1850,7 @@ commands.sleeptest.sleep.desc = Thời gian ngủ tính bằng miligiây.
 commands.sleeptest.sleep.defaultDesc = 10
 commands.sleeptest.count.desc = Số lần lặp lại kiểm tra.
 commands.sleeptest.count.defaultDesc = 1000
-commands.sleeptest.starting = Bắt đầu kiểm tra giấc ngủ: Số lần: {count}, Thời gian ngủ: {sleep}ms (Tổng thời gian: {ms}).
+commands.sleeptest.starting = Bắt đầu kiểm tra giấc ngủ: Số lần: {count}, Thời gian ngủ: {sleep}ms (Tổng thời gian: {ms})
 commands.sleeptest.test = Kiểm tra giấc ngủ\n - Delta: Nhỏ nhất: {deltaMin}, Lớn nhất: {deltaMax}, Trung bình: {deltaAvg} - {deltaTime}\n - Độ lệch: Nhỏ nhất: {offsetMin}, Lớn nhất: {offsetMax}, Trung bình: {offsetAvg} - {offsetTime}
 commands.sleeptest.interrupted = Kiểm tra giấc ngủ đã bị gián đoạn.
 commands.sound.desc = Các lệnh để phát sự kiện âm thanh.
@@ -1879,15 +1873,15 @@ commands.validatecpb.failed = Thất bại:\n {failed}\n
 commands.worldgen.reload.alreadyInProgress = Việc nạp lại Worldgen đã đang được thực hiện rồi!
 commands.worldgen.reload.abort = Một người khác đã bắt đầu nạp lại worldgen cùng lúc. Đang hủy bỏ.
 commands.worldgen.timings = {worldName}:\n\
-    \tChunk Count: {chunkCount, number}\n\
-    \tChunk Time: {chunkTime, number}\n\
-    \tZone Biome Result Time: {zoneBiomeResultTime, number}\n\
-    \tPrepare Time: {prepareTime, number}\n\
-    \tBlock Generation Time: {blockGenerationTime, number}\n\
-    \tCave Generation Time: {caveGenerationTime, number}\n\
-    \tPrefab Generation: {prefabGeneration, number}\n\
-    \tQueue Length: {queueLength, number}\n\
-    \tGenerating Count: {generatingCount, number}\n
+    \tSố lượng phân đoạn: {chunkCount, number}\n\
+    \tThời gian phân đoạn: {chunkTime, number}\n\
+    \tThời gian kết quả vùng quần xã: {zoneBiomeResultTime, number}\n\
+    \tThời gian chuẩn bị: {prepareTime, number}\n\
+    \tThời gian tạo khối: {blockGenerationTime, number}\n\
+    \tThời gian tạo hang động: {caveGenerationTime, number}\n\
+    \tThời gian tạo mẫu dựng sẵn (Prefab): {prefabGeneration, number}\n\
+    \tĐộ dài hàng đợi: {queueLength, number}\n\
+    \tSố lượng đang tạo: {generatingCount, number}\n
 commands.worldgen.noTimings = {worldName}: Chưa thu thập dữ liệu thời gian.
 commands.worldgen.desc = Các lệnh cấu hình tạo thế giới.
 commands.worldgen.reload.desc = nạp lại cấu hình tạo thế giới.
@@ -2003,8 +1997,8 @@ commands.world.settings.box2d.maxX.desc = Tọa độ X lớn nhất.
 commands.world.settings.box2d.maxZ.desc = Tọa độ Z lớn nhất.
 commands.world.settings.box2d.default.desc = Thiết lập giá trị mặc định.
 commands.emote.emoteNotFound = Không tìm thấy biểu cảm (emote): {id}
-commands.hitbox.extentsThresholdNeeded = Sử dụng ngưỡng mở rộng là {threshold}, tổng số khối lấp đầy (filler blocks) cần thiết là: {nb}.
-commands.hitbox.notFound = Không có hộp va chạm (hitbox) nào có tên '{name}'.
+commands.hitbox.extentsThresholdNeeded = Sử dụng ngưỡng mở rộng là {threshold}, tổng số khối lấp đầy (filler blocks) cần thiết là: {nb}
+commands.hitbox.notFound = Không có hộp va chạm (hitbox) nào có tên '{name}'
 commands.hitbox.boundingBox = Hộp bao quanh (Bounding Box): {box}
 commands.hitbox.details.header = Chi tiết các hộp
 commands.hitbox.box = ({minX, number}, {minY, number}, {minZ, number}), ({maxX, number}, {maxY, number}, {maxZ, number})
@@ -2022,8 +2016,8 @@ commands.toggleTmpTags.enabled = Việc hiển thị nhãn [ TMP ] trong các ch
 commands.toggleTmpTags.disabled = Việc hiển thị nhãn [ TMP ] trong các chuỗi tạm thời hiện đã được TẮT. Hãy khởi động lại máy chủ để thấy toàn bộ hiệu ứng. Ngoài ra, hãy lưu ý thiết lập phía máy khách trong tab Hình ảnh (Visual) của menu cài đặt.
 commands.prefabspawner.desc = Xem và chỉnh sửa thuộc tính trong một khối tạo prefab (prefab spawner).
 commands.prefabspawner.spawnerNotFoundAtTarget = Không tìm thấy khối tạo prefab tại khối mục tiêu {pos}.
-commands.prefabspawner.get.desc = <get>: Hiển thị các thuộc tính của khối tạo prefab mục tiêu.
-commands.prefabspawner.get.path = Đường dẫn prefab hiện tại: {prefab}
+commands.prefabspawner.get.desc = <get>: Hiển thị các thuộc tính của khối tạo mẫu dựng sẵn (prefab spawner) mục tiêu.
+commands.prefabspawner.get.path = Đường dẫn mẫu dựng sẵn (prefab) hiện tại: {prefab}
 commands.prefabspawner.get.fitsHeightmap = - FitHeightmap = {fitHeightmap}
 commands.prefabspawner.get.inheritsSeed = - InheritSeed = {inheritSeed}
 commands.prefabspawner.get.inheritsHeightCheck = - InheritHeightCheck = {inheritHeightCheck}
@@ -2364,8 +2358,8 @@ commands.chunk.maxsendrate.tick.desc = Số lượng phân đoạn tối đa m�
 commands.chunk.maxsendrate.tick.setToDefault = Đã thiết lập số lượng phân đoạn tối đa mỗi tick về giá trị mặc định.
 commands.chunk.maxsendrate.tick.set = Đã thiết lập số lượng phân đoạn tối đa mỗi tick: {value, number}
 commands.chunk.maxsendrate.summary = Tốc độ gửi phân đoạn tối đa:\n\
-    \tPer second: {perSecond, number}\n\
-    \tPer tick: {perTick, number}
+    \tMỗi giây: {perSecond, number}\n\
+    \tMỗi tick (nhịp): {perTick, number}
 commands.chunk.fixHeightMap.started = Đang sửa bản đồ độ cao (heightmap)...
 commands.chunk.fixHeightMap.done = Xong!
 commands.chunk.fixHeightMap.invalidatingLighting = Ánh sáng không hợp lệ...
@@ -2389,41 +2383,41 @@ commands.help.page.subcommand.desc = Hiển thị một trang cụ thể từ da
 commands.help.page.defaultDesc = Trang đầu tiên.
 commands.help.pageDoesNotExist = Trang đó không tồn tại!
 commands.chunkinfo.chunk = Phân đoạn {chunkX}, {chunkZ}:\n\
-  \tFlags: \n\
+  \tCờ: \n\
     \t\tStart Init: {startInit}\n\
-    \t\tInit: {init}\n\
-    \t\tNewly Generated: {newlyGenerated}\n\
-    \t\tOn Disk: {onDisk}\n\
-    \t\tTicking: {ticking}\n\
-  \tKeep Loaded: {keepLoaded}\n\
-  \tNeeds Saving: {saving}\n\
-  \tMetadata:\n\
-  \tBlockChunk:\n\
-    \t\tNeeds Saving: {savingChunk}\n
-commands.chunkinfo.section = \t\tSection (Phần) {index}:\n
-commands.chunkinfo.dataType = \t\t\tData Type (Kiểu dữ liệu): {data}\n
-commands.chunkinfo.sectionInfo = \t\t\tHas Ticking (Có ticking): {ticking}\n\
-      \t\t\tIs Solid Air: {solidAir}\n\
-      \t\t\tBlock Count: {count}\n\
-      \t\t\tBlock Counts: {counts}\n
-commands.chunkinfo.blockStateChunk = \tBlock State Chunk (Trạng thái khối phân đoạn):\n\
-    \t\tNeeds Saving: {saving}\n\
-    \t\tBlock States: {countStates}\n\
-    \t\tUnknown Block States: {countUnknown}\n\
-    \t\tSendable Block States: {countSendable}\n\
-    \t\tTickable Block States: {countTickable}\n\
-  \tEntity Chunk:\n\
-    \t\tNeeds Saving: {savingEntity}\n\
-    \t\tEntities: {countEntities}\n
+    \t\tKhởi tạo (Init): {init}\n\
+    \t\tMới được tạo: {newlyGenerated}\n\
+    \t\tTrên đĩa: {onDisk}\n\
+    \t\tĐang hoạt động (Ticking): {ticking}\n\
+  \tGiữ trạng thái đã nạp: {keepLoaded}\n\
+  \tCần lưu: {saving}\n\
+  \tSiêu dữ liệu (Metadata):\n\
+  \tPhân đoạn khối (BlockChunk):\n\
+    \t\tCần lưu: {savingChunk}\n
+commands.chunkinfo.section = \t\tPhần (Section) {index}:\n
+commands.chunkinfo.dataType = \t\t\tKiểu dữ liệu: {data}\n
+commands.chunkinfo.sectionInfo = \t\t\tĐang hoạt động (Has Ticking): {ticking}\n\
+      \t\t\tLà không khí đặc (Solid Air): {solidAir}\n\
+      \t\t\tSố lượng khối: {count}\n\
+      \t\t\tSố lượng kiểu khối: {counts}\n
+commands.chunkinfo.blockStateChunk = \tPhân đoạn trạng thái khối (Block State Chunk):\n\
+    \t\tCần lưu: {saving}\n\
+    \t\tTrạng thái khối: {countStates}\n\
+    \t\tTrạng thái khối không xác định: {countUnknown}\n\
+    \t\tTrạng thái khối có thể gửi: {countSendable}\n\
+    \t\tTrạng thái khối có thể tick: {countTickable}\n\
+  \tPhân đoạn thực thể (Entity Chunk):\n\
+    \t\tCần lưu: {savingEntity}\n\
+    \t\tThực thể: {countEntities}\n
 commands.tps.desc = Lấy chỉ số TPS (Ticks Per Second) của tất cả các thế giới.
 commands.tps.usePerf = Bạn phải sử dụng /perf.
 commands.tps.set.invalidValue = Chỉ số TPS phải là số dương.
 commands.tps.set.success = Đã thiết lập TPS của {worldName} thành {tps, number}.
 commands.tps.reset = Đã đặt lại các chỉ số đo lường cho tất cả các thế giới!
 commands.tps.tpsTime = \tTPS ({time}): {tps}\n
-commands.tps.deltaTime = Delta ({time}): {delta}\n
+commands.tps.deltaTime = \tDelta ({time}): {delta}\n
 commands.tps.tpsMinMaxMetric = \tTPS ({time}): Thấp nhất: {min}, Trung bình: {avg}, Cao nhất: {max}
-commands.tps.deltaMinMaxMetric = Delta ({time}): Thấp nhất: {min}, Trung bình: {avg}, Cao nhất: {max}
+commands.tps.deltaMinMaxMetric = \tDelta ({time}): Thấp nhất: {min}, Trung bình: {avg}, Cao nhất: {max}
 commands.tps.graph = Đồ thị TPS {time}:\n
 commands.time.dilation.desc = Thay đổi tỉ lệ giãn nở thời gian (time dilation) của máy chủ và đồng thời cập nhật giá trị này cho bất kỳ người chơi nào đang trực tuyến.
 commands.time.dilation.timeDilation.desc = Giá trị giãn nở thời gian (phải >0,01 và <=4).
@@ -2491,13 +2485,13 @@ commands.entity.lod.default.desc = Đặt lại tỉ lệ LOD của thực thể
 commands.entity.lod.ratioSet = Đã thiết lập tỉ lệ LOD thành {ratio, number}.
 commands.entity.tracker.desc = Hiển thị thông tin trình theo dõi thực thể (entity tracker) của người chơi.
 commands.entity.tracker.player.desc = Người chơi cần kiểm tra thông tin trình theo dõi.
-commands.entity.tracker.noViewerComponent = El jugador no tiene el componente EntityViewer.
-commands.entity.resend.desc = Reenviar todas las entidades rastreadas a un jugador
-commands.entity.resend.player.desc = El jugador al que reenviar las entidades.
-commands.entity.resend.noEntityViewerComponent = El jugador no tiene el componente EntityView.
-commands.entity.nameplate.entity.desc = La entidad que modificará la placa de identificación para
-commands.entity.nameplate.text.desc = El texto que se debe poner en la placa de identificación
-commands.entity.nameplate.remove.desc = Eliminar la placa de identificación de una entidad
+commands.entity.tracker.noViewerComponent = Người chơi thiếu thành phần EntityViewer.
+commands.entity.resend.desc = Gửi lại tất cả các thực thể đang theo dõi cho một người chơi.
+commands.entity.resend.player.desc = Người chơi cần gửi lại các thực thể.
+commands.entity.resend.noEntityViewerComponent = Người chơi thiếu thành phần EntityView.
+commands.entity.nameplate.entity.desc = Thực thể cần sửa đổi bảng tên.
+commands.entity.nameplate.text.desc = Văn bản cần thiết lập trên bảng tên.
+commands.entity.nameplate.remove.desc = Gỡ bỏ bảng tên khỏi một thực thể.
 commands.entity.interactable.desc = Enable or disable the Interactable component on selected entities
 commands.entity.interactable.disable.desc = If specified, will disable instead of enable the Interactable component
 commands.entity.interactable.success.set = Successfully enabled Interactable component on {amount} entities
