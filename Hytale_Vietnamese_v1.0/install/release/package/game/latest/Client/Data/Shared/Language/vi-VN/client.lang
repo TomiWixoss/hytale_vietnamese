@@ -522,8 +522,8 @@ builderTools.panel.enableEmptyFilter = Bật bộ lọc "Trống"
 builderTools.panel.invertEntireMask = Đảo ngược toàn bộ mặt nạ
 builderTools.panel.useCustomMaskCommandEntry = Sử dụng lệnh mặt nạ tùy chỉnh
 
-builderTools.replace.materialsToReplace = Các vật liệu cần thay thế:
-builderTools.replace.replaceWith = Thay thế bằng:
+builderTools.replace.materialsToReplace = [TMP] Các vật liệu cần thay thế:
+builderTools.replace.replaceWith = [TMP] Thay thế bằng:
 
 builderTools.legend.title = Chú giải
 builderTools.legend.pickMaterial = Chọn vật liệu
@@ -807,7 +807,7 @@ builderTools.legend.SelectPrefabTool.Page1.TeleportToPrefab = Mở giao diện n
 builderTools.legend.SelectPrefabTool.Page1.SetAnchorTitle = Công cụ cố định:
 builderTools.legend.SelectPrefabTool.Page1.SetAnchorDescription = Sử dụng công cụ Đặt điểm neo trong túi đồ của bạn để thay đổi vị trí điểm neo của mẫu dựng sẵn. Điểm neo xác định vị trí mẫu dựng sẵn được đặt khi được tạo ra.
 builderTools.legend.SelectPrefabTool.Page1.UsefulCommands = Các lệnh hữu ích:
-builderTools.legend.SelectPrefabTool.Page1.KillCommand = /pedit kill: xóa tất cả các thực thể khỏi mẫu dựng sẵn được chọn.
+builderTools.legend.SelectPrefabTool.Page1.KillCommand = /pedit kill: xóa tất cả các thực thể khỏi mẫu dựng sẵn được chọn.\n\
 /pedit exit - Thoát khỏi trình chỉnh sửa mẫu dựng sẵn mà không lưu các thay đổi
 
 builderTools.tools.Paste.args.Origin.name = Gốc tọa độ
@@ -903,7 +903,7 @@ confirmQuitOverlay.buttons.quitToDesktop = Thoát ra màn hình nền
 # === contentCreation ===
 contentCreation.pageTitle = Sáng tạo nội dung
 
-contentCreation.introText = Đây là trung tâm nơi bạn có thể truy cập vào các công cụ và trình chỉnh sửa khác nhau để giúp bạn tạo nội dung trong Hytale.
+contentCreation.introText = Đây là trung tâm nơi bạn có thể truy cập vào các công cụ và trình chỉnh sửa khác nhau để giúp bạn tạo nội dung trong Hytale.\n\
 \n\
 Chỉ cần chọn một trong các công cụ từ trình đơn phía trên để bắt đầu.
 
@@ -1091,8 +1091,8 @@ gamePageNavigation.buttons.Inventory = Túi đồ
 gamePageNavigation.buttons.Map = Bản đồ
 gamePageNavigation.buttons.ContentCreation = Sáng tạo nội dung
 gamePageNavigation.buttons.ContentCreation.disabledTooltip = Trình đơn sáng tạo chỉ khả dụng trong chế độ Sáng tạo.
-gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = CHẾ ĐỘ SÁNG TẠO
-gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = Trong chế độ Sáng tạo, bạn sẽ có quyền truy cập vào các công cụ chỉnh sửa mạnh mẽ. Để chuyển sang chế độ Sáng tạo, hãy gõ "/op self" và sau đó kích hoạt chế độ chơi bằng phím tắt "O".
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = [TMP] CHẾ ĐỘ SÁNG TẠO
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = [TMP] Trong chế độ Sáng tạo, bạn sẽ có quyền truy cập vào các công cụ chỉnh sửa mạnh mẽ. Để chuyển sang chế độ Sáng tạo, hãy gõ "/op self" và sau đó kích hoạt chế độ chơi bằng phím tắt "O".
 gamePageNavigation.earlyAccess = Truy cập sớm (Early Access)
 # === general ===
 general.button.cancel = Hủy
@@ -1207,10 +1207,10 @@ inventory.character.tooltip.togglePocketCrafting = Bật/Tắt chế tạo bỏ 
 inventory.character.tooltip.toggleBackpack = Bật/Tắt ba lô
 inventory.character.tooltip.lockedBackpack = Được mở khóa khi chế tạo nâng cấp ba lô.
 inventory.character.tooltip.toggleMemories = Bật/Tắt ký ức đã thu thập
-inventory.character.tooltip.disabledMemories = Ký ức bị vô hiệu hóa trong bối cảnh này.
-inventory.character.tooltip.disabledBackpack = Ba lô bị vô hiệu hóa trong bối cảnh này.
+inventory.character.tooltip.disabledMemories = [TMP] Ký ức bị vô hiệu hóa trong bối cảnh này.
+inventory.character.tooltip.disabledBackpack = [TMP] Ba lô bị vô hiệu hóa trong bối cảnh này.
 inventory.character.tooltip.lockedMemories = Tìm Đền thờ bị lãng quên để biết thêm thông tin.
-inventory.character.tooltip.pocketCraftingDisabled = Tính năng Chế tạo bỏ túi bị vô hiệu hóa trong bối cảnh này.
+inventory.character.tooltip.pocketCraftingDisabled = [TMP] Tính năng Chế tạo bỏ túi bị vô hiệu hóa trong bối cảnh này.
 
 inventory.character.stats.mana = Mana
 inventory.character.stats.health = Máu
@@ -1413,7 +1413,7 @@ mainMenu.navigation.shop = Cửa hàng
 mainMenu.discord.button.label = Tham gia Discord
 mainMenu.discord.button.tooltip = Mở Discord của chúng tôi trong trình duyệt bên ngoài.
 
-mainMenu.feedback.button.label = Gửi bình luận
+mainMenu.feedback.button.label = [TMP] Gửi bình luận
 
 # Minigames
 
@@ -1509,7 +1509,7 @@ mainMenu.servers.failedToFetch = Không thể lấy danh sách máy chủ.
 
 mainMenu.servers.details.host = Chủ phòng (Host): {host}
 mainMenu.servers.details.languages = Ngôn ngữ được hỗ trợ: {languages}
-mainMenu.servers.details.uuid = Định danh duy nhất toàn cầu (UUID)
+mainMenu.servers.details.uuid = [TMP] Định danh duy nhất toàn cầu (UUID): {uuid}
 mainMenu.servers.details.online = Trực tuyến: {online}
 mainMenu.servers.details.branch = Nhánh: {name}
 mainMenu.servers.details.favoriteYes = Yêu thích: Có
@@ -1517,7 +1517,7 @@ mainMenu.servers.details.favoriteNo = Yêu thích: Không
 
 mainMenu.servers.offline.title = Chế độ nhiều người chơi không khả dụng
 mainMenu.servers.offline.description.offline = Bạn đang ở chế độ ngoại tuyến.\n\
-    Để chơi nhiều người chơi, hãy khởi động lại trò chơi ở chế độ trực tuyến.
+Để chơi nhiều người chơi, hãy khởi động lại trò chơi ở chế độ trực tuyến.
 mainMenu.servers.offline.description.connecting = Đang kết nối với máy chủ Hytale, vui lòng thử lại sau giây lát...
 mainMenu.servers.offline.description.unavailable = Chế độ nhiều người chơi hiện không khả dụng do chúng tôi đang gặp sự cố khi kết nối với máy chủ Hytale. Vui lòng thử lại sau hoặc khởi động lại trò chơi.
 
@@ -1541,7 +1541,7 @@ mainMenu.worlds.randomWorld = Thế giới ngẫu nhiên
 mainMenu.worlds.creativeMode = Chế độ Sáng tạo
 mainMenu.worlds.creativeModeStandard = Tiêu chuẩn
 mainMenu.worlds.creativeModeHub = Trung tâm sáng tạo
-mainMenu.worlds.creativeModeGenerated = Thế giới được tạo
+mainMenu.worlds.creativeModeGenerated = [TMP] Thế giới được tạo
 mainMenu.worlds.npcSpawning = Sinh ra NPC
 mainMenu.worlds.noNpcSpawning = Không có NPC
 mainMenu.worlds.deleteWorld = Xóa thế giới
@@ -1559,22 +1559,22 @@ mainMenu.worlds.settings.enabled = Đã bật
 mainMenu.worlds.settings.disabled = Đã tắt
 mainMenu.worlds.settings.fallDamage = Sát thương khi rơi
 mainMenu.worlds.settings.pauseTime = Tạm dừng thời gian
-mainMenu.worlds.settings.dayNightCycle = Chu kỳ ngày/đêm
-mainMenu.worlds.settings.dayDuration = Độ dài ngày (giây)
-mainMenu.worlds.settings.nightDuration = Độ dài đêm (giây)
-mainMenu.worlds.settings.customTime = Thời gian tùy chỉnh
+mainMenu.worlds.settings.dayNightCycle = [TMP] Chu kỳ ngày/đêm
+mainMenu.worlds.settings.dayDuration = [TMP] Độ dài ngày (giây)
+mainMenu.worlds.settings.nightDuration = [TMP] Độ dài đêm (giây)
+mainMenu.worlds.settings.customTime = [TMP] Thời gian tùy chỉnh
 mainMenu.worlds.settings.applyWorldSettings = Áp dụng cài đặt
 mainMenu.worlds.settings.restoreSettings = Khôi phục về mặc định
-mainMenu.worlds.settings.deathPenalty = Hình phạt túi đồ khi chết
-mainMenu.worlds.settings.deathPenalty.tooltip = Xác định hình phạt túi đồ sẽ được áp dụng sau khi người chơi chết.\n\
+mainMenu.worlds.settings.deathPenalty = [TMP] Hình phạt túi đồ khi chết
+mainMenu.worlds.settings.deathPenalty.tooltip = [TMP] Xác định hình phạt túi đồ sẽ được áp dụng sau khi người chơi chết.\n\
 <b><color is="#f1ba50">Không có</color></b>: Người chơi sẽ không đánh rơi vật phẩm khi chết.\n\
 <b><color is="#f1ba50">Rơi tất cả</color></b>: Người chơi sẽ rơi tất cả vật phẩm trong túi đồ khi chết.\n\
 <b><color is="#f1ba50">Rơi một phần</color></b>: Người chơi sẽ chỉ rơi một lượng vật phẩm nhất định được cấu hình khi chết.
-mainMenu.worlds.settings.resourceLoss = Tỷ lệ mất tài nguyên khi chết
-mainMenu.worlds.settings.durabilityLoss = Tỷ lệ mất độ bền khi chết
-mainMenu.worlds.settings.deathPenaltyNone = Không có
-mainMenu.worlds.settings.deathPenaltyDropAll = Rơi tất cả
-mainMenu.worlds.settings.deathPenaltyPartial = Rơi một phần
+mainMenu.worlds.settings.resourceLoss = [TMP] Tỷ lệ mất tài nguyên khi chết
+mainMenu.worlds.settings.durabilityLoss = [TMP] Tỷ lệ mất độ bền khi chết
+mainMenu.worlds.settings.deathPenaltyNone = [TMP] Không có
+mainMenu.worlds.settings.deathPenaltyDropAll = [TMP] Rơi tất cả
+mainMenu.worlds.settings.deathPenaltyPartial = [TMP] Rơi một phần
 
 mainMenu.worlds.adventureMode.wip.text = [Không khả dụng trong giai đoạn Truy cập sớm]
 mainMenu.worlds.exploartionMode.wip.text = [Bản xem trước phát triển trong giai đoạn Truy cập sớm]
@@ -1716,11 +1716,11 @@ myAvatar.entitlement.gameFounder.lockedMessage = Để sử dụng trang phục 
 myAvatar.entitlement.gameFounder.description = Phần này dành riêng cho phiên bản Hytale Cursebreaker. Hãy mở khóa bằng cách nâng cấp phiên bản hiện tại của bạn trong cửa hàng Hytale.
 
 myAvatar.entitlement.gameDeluxe.titleSuffix = Phiên bản Supporter độc quyền
-myAvatar.entitlement.gameDeluxe.lockedMessage = Để sử dụng trang phục này, bạn cần phiên bản Supporter.
+myAvatar.entitlement.gameDeluxe.lockedMessage = [TMP] Để sử dụng trang phục này, bạn cần phiên bản Supporter.
 myAvatar.entitlement.gameDeluxe.description = Phần này dành riêng cho phiên bản Hytale Supporter. Hãy mở khóa bằng cách nâng cấp phiên bản hiện tại của bạn trong cửa hàng Hytale.
 
 myAvatar.entitlement.gameStandard.titleSuffix = Phiên bản Standard Truy cập sớm độc quyền
-myAvatar.entitlement.gameStandard.lockedMessage = Để sử dụng trang phục này, bạn cần phiên bản Standard Truy cập sớm.
+myAvatar.entitlement.gameStandard.lockedMessage = [TMP] Để sử dụng trang phục này, bạn cần phiên bản Standard Truy cập sớm.
 myAvatar.entitlement.gameStandard.description = Phần này dành riêng cho phiên bản Hytale Standard Truy cập sớm. Hãy mở khóa bằng cách nâng cấp phiên bản hiện tại của bạn trong cửa hàng Hytale.
 
 myAvatar.entitlement.default.lockedMessage = Bạn không thể sử dụng trang phục này vì nó đã bị khóa.
@@ -1906,7 +1906,7 @@ settings.hideHeldItem.description = Ẩn vật phẩm bạn đang cầm trên ta
 settings.maxChatMessages = Số tin nhắn chat tối đa
 settings.maxChatMessages.description = Xác định số lượng tin nhắn tối đa được giữ lại trong danh sách chat.
 settings.cameraBasedFlying = Bay theo hướng camera
-settings.cameraBasedFlying.description = Xác định hành vi khi bay.
+settings.cameraBasedFlying.description = Xác định hành vi khi bay.\n\
 <b><color is="#f1ba50">Bật</color></b>: Bạn sẽ di chuyển theo hướng bạn đang nhìn.\n\
 <b><color is="#f1ba50">Tắt</color></b>: Bạn sẽ luôn di chuyển theo cùng một cách, bất kể bạn đang nhìn về hướng nào.
 settings.showToolNotifications = Hiển thị thông báo công cụ
@@ -1962,10 +1962,8 @@ settings.depthBuffer.low = Thấp
 settings.depthBuffer.high = Cao
 settings.depthBuffer.description = Kiểm soát độ chính xác về chiều sâu của hình ảnh render. Sử dụng bộ đệm độ sâu có độ chính xác cao hơn có thể giúp giảm rung lắc các vật thể từ xa.
 
-settings.joinCameraPref = Ưu tiên camera (khi xuất hiện)
-settings.joinCameraPref.description = Bạn thích góc nhìn camera nào khi tham gia vào thế giới?
-# Máy chủ có thể ghi đè cài đặt này
-settings.joinCameraPref.note = Máy chủ có thể ghi đè cài đặt này!
+settings.joinCameraPref.description = Bạn thích góc nhìn camera nào khi tham gia vào thế giới?\n\
+Máy chủ có thể ghi đè cài đặt này!
 settings.joinCameraPref.first = Góc nhìn thứ nhất
 settings.joinCameraPref.third = Góc nhìn thứ ba
 settings.joinCameraPref.lastUsed = Ghi nhớ lần sử dụng cuối
