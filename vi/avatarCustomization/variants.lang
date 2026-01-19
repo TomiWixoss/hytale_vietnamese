@@ -1,34 +1,34 @@
-earSide = Ear Side
-earSide.left = Left
-earSide.right = Right
-earSide.both = Both
+earSide = Bên tai
+earSide.left = Trái
+earSide.right = Phải
+earSide.both = Cả hai
 
-pattern.skull = Skull Pattern
-pattern.star = Star Pattern
-pattern.gaia = Prismatic Tree Pattern
-pattern.cat = Cat Pattern
-pattern.bunny = Bunny Pattern
-pattern.unicorn = Unicorn Pattern
-pattern.cat = Cat Pattern
-pattern.play = Play Button Pattern
-pattern.play_inverted = Inverted Play Button Pattern
+pattern.skull = Họa tiết đầu lâu
+pattern.star = Họa tiết ngôi sao
+pattern.gaia = Họa tiết cây lăng kính (Prismatic Tree)
+pattern.cat = Họa tiết mèo
+pattern.bunny = Họa tiết thỏ
+pattern.unicorn = Họa tiết kỳ lân
+pattern.cat = Họa tiết mèo
+pattern.play = Họa tiết nút Play
+pattern.play_inverted = Họa tiết nút Play ngược
 
-pants.dungareesshorts = Dungaree Shorts
-pants.bracedshorts = Braced Shorts
-pants.dungarees = Dungarees
-pants.bracedpants = Braced Pants
+pants.dungareesshorts = Quần yếm ngắn
+pants.bracedshorts = Quần soóc thắt dây
+pants.dungarees = Quần yếm
+pants.bracedpants = Quần dài thắt dây
 
-default = Default
+default = Mặc định
 
-overtops.Scavenger_Poncho = No Skull
+overtops.Scavenger_Poncho = Không có đầu lâu
 
-capes.no_neck = No Neck
+capes.no_neck = Không có cổ
 
-haircuts.Dreadlocks01.name = Dreadlocks 1
-haircuts.Dreadlocks02.name = Dreadlocks 2
-haircuts.Dreadlocks03.name = Dreadlocks 3
-haircuts.SlickbackCowlick.name = [TMP] Cowlicked Slickback
+haircuts.Dreadlocks01.name = Tóc bím 1
+haircuts.Dreadlocks02.name = Tóc bím 2
+haircuts.Dreadlocks03.name = Tóc bím 3
+haircuts.SlickbackCowlick.name = [TMP] Tóc chải ngược có chỏm
 
-headaccessory.Logo_Cap_Movie.name = Movie Logo
-headaccessory.Logo_Cap_Heart.name = Heart Logo
-headaccessory.Logo_Cap_Hypixel.name = Hypixel Logo
+headaccessory.Logo_Cap_Movie.name = Logo phim ảnh
+headaccessory.Logo_Cap_Heart.name = Logo trái tim
+headaccessory.Logo_Cap_Hypixel.name = Logo Hypixel
