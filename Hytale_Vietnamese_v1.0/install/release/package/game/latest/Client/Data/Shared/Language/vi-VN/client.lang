@@ -451,13 +451,13 @@ benchCategories.Saplings = Cây con
 benchCategories.All = Tất cả
 benchCategories.Prepared = Sơ chế
 benchCategories.Baked = Nướng
-benchCategories.Weapons = Armas
-benchCategories.Tools = Herramientas
-benchCategories.Arcane_Misc = Varios
-benchCategories.Arcane_Portals = Portales
-benchCategories.Alchemy_Potions = Pociones
-benchCategories.Alchemy_Bombs = Bombas
-benchCategories.Template = Plantilla
+benchCategories.Weapons = Vũ khí
+benchCategories.Tools = Công cụ
+benchCategories.Arcane_Misc = Bí thuật khác
+benchCategories.Arcane_Portals = Cổng bí thuật
+benchCategories.Alchemy_Potions = Thuốc giả kim
+benchCategories.Alchemy_Bombs = Bom giả kim
+benchCategories.Template = Bản mẫu
 # === builderTools ===
 builderTools.name = Công cụ xây dựng (Builder Tools)
 builderTools.selectTool = Chọn công cụ
@@ -522,8 +522,8 @@ builderTools.panel.enableEmptyFilter = Bật bộ lọc "Trống"
 builderTools.panel.invertEntireMask = Đảo ngược toàn bộ mặt nạ
 builderTools.panel.useCustomMaskCommandEntry = Sử dụng lệnh mặt nạ tùy chỉnh
 
-builderTools.replace.materialsToReplace = [TMP] Các vật liệu cần thay thế:
-builderTools.replace.replaceWith = [TMP] Thay thế bằng:
+builderTools.replace.materialsToReplace = Các vật liệu cần thay thế:
+builderTools.replace.replaceWith = Thay thế bằng:
 
 builderTools.legend.title = Chú giải
 builderTools.legend.pickMaterial = Chọn vật liệu
@@ -1078,7 +1078,7 @@ gameLoadingView.hints.constructionThanks = Cảm ơn bạn đã chơi trong khi 
 gameLoadingView.hints.futureTipsAndTricks = Màn hình này sẽ hiển thị cho bạn các mẹo và thủ thuật giúp ích cho cuộc phiêu lưu của bạn.
 
 gameLoadingView.status.waitingForShutdown = Đang chờ máy chủ tắt hoàn toàn...
-gameLoadingView.status.connecting = Đ Đang kết nối...
+gameLoadingView.status.connecting = Đang kết nối...
 gameLoadingView.status.connectingP2P = Đang kết nối với "{name}" của "{host}"... ({current}/{total})
 gameLoadingView.status.bootingServer = Đang khởi động máy chủ...
 gameLoadingView.status.enterPassword = Nhập mật khẩu máy chủ.
@@ -1091,8 +1091,8 @@ gamePageNavigation.buttons.Inventory = Túi đồ
 gamePageNavigation.buttons.Map = Bản đồ
 gamePageNavigation.buttons.ContentCreation = Sáng tạo nội dung
 gamePageNavigation.buttons.ContentCreation.disabledTooltip = Trình đơn sáng tạo chỉ khả dụng trong chế độ Sáng tạo.
-gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = [TMP] CHẾ ĐỘ SÁNG TẠO
-gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = [TMP] Trong chế độ Sáng tạo, bạn sẽ có quyền truy cập vào các công cụ chỉnh sửa mạnh mẽ. Để chuyển sang chế độ Sáng tạo, hãy gõ "/op self" và sau đó kích hoạt chế độ chơi bằng phím tắt "O".
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = CHẾ ĐỘ SÁNG TẠO
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = Trong chế độ Sáng tạo, bạn sẽ có quyền truy cập vào các công cụ chỉnh sửa mạnh mẽ. Để chuyển sang chế độ Sáng tạo, hãy gõ "/op self" và sau đó kích hoạt chế độ chơi bằng phím tắt "O".
 gamePageNavigation.earlyAccess = Truy cập sớm (Early Access)
 # === general ===
 general.button.cancel = Hủy
@@ -1207,10 +1207,10 @@ inventory.character.tooltip.togglePocketCrafting = Bật/Tắt chế tạo bỏ 
 inventory.character.tooltip.toggleBackpack = Bật/Tắt ba lô
 inventory.character.tooltip.lockedBackpack = Được mở khóa khi chế tạo nâng cấp ba lô.
 inventory.character.tooltip.toggleMemories = Bật/Tắt ký ức đã thu thập
-inventory.character.tooltip.disabledMemories = [TMP] Ký ức bị vô hiệu hóa trong bối cảnh này.
-inventory.character.tooltip.disabledBackpack = [TMP] Ba lô bị vô hiệu hóa trong bối cảnh này.
+inventory.character.tooltip.disabledMemories = Ký ức bị vô hiệu hóa trong bối cảnh này.
+inventory.character.tooltip.disabledBackpack = Ba lô bị vô hiệu hóa trong bối cảnh này.
 inventory.character.tooltip.lockedMemories = Tìm Đền thờ bị lãng quên để biết thêm thông tin.
-inventory.character.tooltip.pocketCraftingDisabled = [TMP] Tính năng Chế tạo bỏ túi bị vô hiệu hóa trong bối cảnh này.
+inventory.character.tooltip.pocketCraftingDisabled = Tính năng Chế tạo bỏ túi bị vô hiệu hóa trong bối cảnh này.
 
 inventory.character.stats.mana = Mana
 inventory.character.stats.health = Máu
@@ -1402,18 +1402,18 @@ machinima.keyframe.tooltip.deleteEvent = Xóa sự kiện
 # === mainMenu ===
 # Navigation
 
-mainMenu.navigation.quit = Salir
-mainMenu.navigation.settings = Configuración
-mainMenu.navigation.worlds = Mundos
-mainMenu.navigation.minigames = Minijuegos
-mainMenu.navigation.servers = Servidores
+mainMenu.navigation.quit = Thoát
+mainMenu.navigation.settings = Cài đặt
+mainMenu.navigation.worlds = Thế giới
+mainMenu.navigation.minigames = Trò chơi nhỏ
+mainMenu.navigation.servers = Máy chủ
 mainMenu.navigation.avatar = Avatar của tôi
 mainMenu.navigation.shop = Cửa hàng
 
 mainMenu.discord.button.label = Tham gia Discord
 mainMenu.discord.button.tooltip = Mở Discord của chúng tôi trong trình duyệt bên ngoài.
 
-mainMenu.feedback.button.label = [TMP] Gửi bình luận
+mainMenu.feedback.button.label = Gửi bình luận
 
 # Minigames
 
@@ -1541,7 +1541,7 @@ mainMenu.worlds.randomWorld = Thế giới ngẫu nhiên
 mainMenu.worlds.creativeMode = Chế độ Sáng tạo
 mainMenu.worlds.creativeModeStandard = Tiêu chuẩn
 mainMenu.worlds.creativeModeHub = Trung tâm sáng tạo
-mainMenu.worlds.creativeModeGenerated = [TMP] Thế giới được tạo
+mainMenu.worlds.creativeModeGenerated = Thế giới được tạo
 mainMenu.worlds.npcSpawning = Sinh ra NPC
 mainMenu.worlds.noNpcSpawning = Không có NPC
 mainMenu.worlds.deleteWorld = Xóa thế giới
@@ -1550,7 +1550,7 @@ mainMenu.worlds.openFolder = Mở thư mục
 mainMenu.worlds.createWorld = Tạo thế giới
 mainMenu.worlds.saveWorldSettings = Lưu cài đặt toàn cầu
 mainMenu.worlds.newWorld = Thế giới mới
-mainMenu.worlds.worldOptions = Opciones del mundo
+mainMenu.worlds.worldOptions = Tùy chọn thế giới
 mainMenu.worlds.defaultWorldName = Thế giới mới
 mainMenu.worlds.defaultSettings = Cài đặt mặc định
 mainMenu.worlds.customSettings = Cài đặt tùy chỉnh
@@ -1559,22 +1559,22 @@ mainMenu.worlds.settings.enabled = Đã bật
 mainMenu.worlds.settings.disabled = Đã tắt
 mainMenu.worlds.settings.fallDamage = Sát thương khi rơi
 mainMenu.worlds.settings.pauseTime = Tạm dừng thời gian
-mainMenu.worlds.settings.dayNightCycle = [TMP] Chu kỳ ngày/đêm
-mainMenu.worlds.settings.dayDuration = [TMP] Độ dài ngày (giây)
-mainMenu.worlds.settings.nightDuration = [TMP] Độ dài đêm (giây)
-mainMenu.worlds.settings.customTime = [TMP] Thời gian tùy chỉnh
+mainMenu.worlds.settings.dayNightCycle = Chu kỳ ngày/đêm
+mainMenu.worlds.settings.dayDuration = Độ dài ngày (giây)
+mainMenu.worlds.settings.nightDuration = Độ dài đêm (giây)
+mainMenu.worlds.settings.customTime = Thời gian tùy chỉnh
 mainMenu.worlds.settings.applyWorldSettings = Áp dụng cài đặt
 mainMenu.worlds.settings.restoreSettings = Khôi phục về mặc định
-mainMenu.worlds.settings.deathPenalty = [TMP] Hình phạt túi đồ khi chết
-mainMenu.worlds.settings.deathPenalty.tooltip = [TMP] Xác định hình phạt túi đồ sẽ được áp dụng sau khi người chơi chết.\n\
+mainMenu.worlds.settings.deathPenalty = Hình phạt túi đồ khi chết
+mainMenu.worlds.settings.deathPenalty.tooltip = Xác định hình phạt túi đồ sẽ được áp dụng sau khi người chơi chết.\n\
 <b><color is="#f1ba50">Không có</color></b>: Người chơi sẽ không đánh rơi vật phẩm khi chết.\n\
 <b><color is="#f1ba50">Rơi tất cả</color></b>: Người chơi sẽ rơi tất cả vật phẩm trong túi đồ khi chết.\n\
 <b><color is="#f1ba50">Rơi một phần</color></b>: Người chơi sẽ chỉ rơi một lượng vật phẩm nhất định được cấu hình khi chết.
-mainMenu.worlds.settings.resourceLoss = [TMP] Tỷ lệ mất tài nguyên khi chết
-mainMenu.worlds.settings.durabilityLoss = [TMP] Tỷ lệ mất độ bền khi chết
-mainMenu.worlds.settings.deathPenaltyNone = [TMP] Không có
-mainMenu.worlds.settings.deathPenaltyDropAll = [TMP] Rơi tất cả
-mainMenu.worlds.settings.deathPenaltyPartial = [TMP] Rơi một phần
+mainMenu.worlds.settings.resourceLoss = Tỷ lệ mất tài nguyên khi chết
+mainMenu.worlds.settings.durabilityLoss = Tỷ lệ mất độ bền khi chết
+mainMenu.worlds.settings.deathPenaltyNone = Không có
+mainMenu.worlds.settings.deathPenaltyDropAll = Rơi tất cả
+mainMenu.worlds.settings.deathPenaltyPartial = Rơi một phần
 
 mainMenu.worlds.adventureMode.wip.text = [Không khả dụng trong giai đoạn Truy cập sớm]
 mainMenu.worlds.exploartionMode.wip.text = [Bản xem trước phát triển trong giai đoạn Truy cập sớm]
@@ -1716,11 +1716,11 @@ myAvatar.entitlement.gameFounder.lockedMessage = Để sử dụng trang phục 
 myAvatar.entitlement.gameFounder.description = Phần này dành riêng cho phiên bản Hytale Cursebreaker. Hãy mở khóa bằng cách nâng cấp phiên bản hiện tại của bạn trong cửa hàng Hytale.
 
 myAvatar.entitlement.gameDeluxe.titleSuffix = Phiên bản Supporter độc quyền
-myAvatar.entitlement.gameDeluxe.lockedMessage = [TMP] Để sử dụng trang phục này, bạn cần phiên bản Supporter.
+myAvatar.entitlement.gameDeluxe.lockedMessage = Để sử dụng trang phục này, bạn cần phiên bản Supporter.
 myAvatar.entitlement.gameDeluxe.description = Phần này dành riêng cho phiên bản Hytale Supporter. Hãy mở khóa bằng cách nâng cấp phiên bản hiện tại của bạn trong cửa hàng Hytale.
 
 myAvatar.entitlement.gameStandard.titleSuffix = Phiên bản Standard Truy cập sớm độc quyền
-myAvatar.entitlement.gameStandard.lockedMessage = [TMP] Để sử dụng trang phục này, bạn cần phiên bản Standard Truy cập sớm.
+myAvatar.entitlement.gameStandard.lockedMessage = Để sử dụng trang phục này, bạn cần phiên bản Standard Truy cập sớm.
 myAvatar.entitlement.gameStandard.description = Phần này dành riêng cho phiên bản Hytale Standard Truy cập sớm. Hãy mở khóa bằng cách nâng cấp phiên bản hiện tại của bạn trong cửa hàng Hytale.
 
 myAvatar.entitlement.default.lockedMessage = Bạn không thể sử dụng trang phục này vì nó đã bị khóa.
@@ -1964,7 +1964,8 @@ settings.depthBuffer.description = Kiểm soát độ chính xác về chiều s
 
 settings.joinCameraPref = Ưu tiên camera (khi xuất hiện)
 settings.joinCameraPref.description = Bạn thích góc nhìn camera nào khi tham gia vào thế giới?
-Servers may override this! = Máy chủ có thể ghi đè cài đặt này!
+# Máy chủ có thể ghi đè cài đặt này
+settings.joinCameraPref.note = Máy chủ có thể ghi đè cài đặt này!
 settings.joinCameraPref.first = Góc nhìn thứ nhất
 settings.joinCameraPref.third = Góc nhìn thứ ba
 settings.joinCameraPref.lastUsed = Ghi nhớ lần sử dụng cuối
@@ -2152,7 +2153,7 @@ settings.mountForcedDecelerationMultiplierSetting = Hệ số nhân giảm tốc
 settings.mountForcedDecelerationMultiplierSetting.tooltip = Hệ số nhân được sử dụng để giảm thời gian giảm tốc khi nhấn phím di chuyển ngược lại với tốc độ hiện tại.
 settings.mountRequireNewInput = Yêu cầu đầu vào mới sau khi giảm tốc cưỡng bức
 settings.mountRequireNewInput.tooltip = Liệu bạn có phải thả và nhấn lại phím di chuyển để tiếp tục di chuyển sau khi giảm tốc cưỡng bức hay không.
-settings.displayTempPrefix = Hiển thị nhãn [TMP] trong văn bản
+settings.displayTempPrefix = Hiển thị nhãn trong văn bản
 
 settings.armorItemsPickupLocation = Vật phẩm giáp
 settings.armorItemsPickupLocation.description = Xác định vị trí ưu tiên khi cất giữ các vật phẩm lúc nhặt được.\n\
